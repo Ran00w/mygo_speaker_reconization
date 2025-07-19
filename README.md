@@ -24,12 +24,7 @@ E --> F[动态平滑输出]
 
 
 ## 🎥 效果演示
-```html
-<video controls width="80%" style="display:block; margin:20px auto; border-radius:8px;">
-  <source src="./demo.mp4" type="video/mp4">
-  您的浏览器不支持视频播放
-</video>
-```
+可见项目中的demo.mp4
 
 ## 特性
 - 🎤 支持MyGO!!!!!全员语音识别
