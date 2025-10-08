@@ -158,19 +158,14 @@ python scripts/test.py --save_path checkpoints/model.ckpt
 1. **Q: 上传文件后提示"File type not allowed"**
    A: 请确保上传的文件格式为wav、mp3、mp4、avi或mkv
 
-2. **Q: 识别结果不准确**
-   A: 可能是音频质量不佳或包含背景噪声，尝试使用更清晰的音频文件
 
-3. **Q: 训练过程中出现CUDA内存不足**
+2. **Q: 训练过程中出现CUDA内存不足**
    A: 减小batch_size参数，例如：`python scripts/train.py --batch_size 16`
 
 ## 📝 数据来源
 
 数据训练集可从B站up主[椎名乐奈](https://space.bilibili.com/320151977?spm_id_from=333.337.search-card.all.click)处获得，将各个角色的语音包放入raw_data文件夹然后对每个角色分别单独建一个文件夹，然后放入对应角色的语音音频，然后再通过split_wav.py分割音频到data文件夹中
 
-## 🤝 贡献指南
-
-欢迎提交Issue和Pull Request来改进本项目。
 
 ## 📄 许可证
 
